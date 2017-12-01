@@ -163,24 +163,26 @@ author: visalakshi
 
 date:30-11-2017
 
-description:file handling'''
+description:file handling using functions'''
 
-obj =open("marks.txt","w")
+def write_file():
+    obj =open("marks.txt","w")
 
-obj.write("science=50\nmaths=90\nenglish=85\ntamil=92")
+    obj.write("science=50\nmaths=90\nenglish=85\ntamil=92")
 
-obj.close()
+    obj.close()
+def read_file():
+    obj =open('marks.txt','r')
+    data=obj.readlines()
+    temp=0
+    for i in data:
+        str_list=i.split('=')
+        no=str_list[1].strip().strip('\n')
+        temp = temp+int(no)
+    print temp
+write_file()
+read_file()
 
-obj =open('marks.txt','r')
-
-data=obj.readlines()
- temp=0
- for i in data:
-     str_list=i.split('=')
-     no=str_list[1].strip().strip('\n')
-     #print no
-     temp = temp+int(no)
- print temp
 
 
 
