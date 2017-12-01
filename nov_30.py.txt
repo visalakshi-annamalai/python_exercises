@@ -1,0 +1,186 @@
+'''i) write a python script to make a simple calculator that can add, subtract, multiply and divide using functions 
+   a) have four functions with two arguments
+   b) get the values from user
+   c) try except as well '''
+
+'''
+Name:main.py
+
+author: visalakshi
+
+date:30-11-2017
+
+description:calculator
+ '''
+
+
+def add(a,b):
+
+    '''addition'''
+
+    try:
+
+        c=a+b
+
+        print ("addition result:%s" %c)
+
+    except Exception as e:
+
+        print e
+
+def sub(a,b):
+
+    '''subratction'''
+
+    try:
+
+        c=a-b
+
+        print ("subraction result:%s" %c)
+
+    except Exception as e:
+
+        print e
+
+def mul(a,b):
+
+    '''multiplication'''
+
+    try:
+
+        c=a*b
+
+        print("multiplication result:%s" %c)
+
+    except Exception as e:
+
+        print e
+ def div(a,b):
+
+    '''division'''
+
+    try:
+
+        c=a%b
+
+        print ("division result:%s" %c)
+
+    except Exception as e:
+
+        print e
+
+c=raw_input("number1")
+
+d=raw_input("number2")
+
+a=int(c)
+
+b=int(d)
+
+add(a,b)
+
+sub(a,b)
+
+mul(a,b)
+
+div(a,b)
+
+
+
+#ii)Define a function that can accept two strings as input and concatenate them and then print it as a output
+
+'''
+ Name:main.py
+
+author: visalakshi
+
+date:30-11-2017
+
+description:concat'''
+
+
+def con(a,b):
+
+    '''concat strings'''
+
+    try:
+
+        c=a+b
+
+        print ("the result is %s" %c)
+
+    except Exception as e:
+
+        print e
+
+a=raw_input("string1")
+
+b=raw_input("string2")
+con(a,b)
+
+
+'''iii) write a python script having functions defined to perfrom - sum_digits(1738)
+output should be 1+7+3+8 = 18'''
+
+'''
+Name:main.py
+
+author: visalakshi
+
+date:30-11-2017
+
+description:sum of digits'''
+
+number=raw_input("number")
+
+a=0
+
+for i in number:
+
+    i=int(i)
+
+    a=a+i
+
+print a
+
+
+
+
+
+'''iv)  write the below contents to  a file named 'marks.txt' using python script using functions
+science = 50
+maths = 90
+english = 85
+tamil = 92
+       i) read the file and calculate the total sum of marks available there
+def read_file():
+def write_file():'''
+
+'''
+Name:main.py
+
+author: visalakshi
+
+date:30-11-2017
+
+description:file handling'''
+
+obj =open("marks.txt","w")
+
+obj.write("science=50\nmaths=90\nenglish=85\ntamil=92")
+
+obj.close()
+
+obj =open('marks.txt','r')
+
+data=obj.readlines()
+ temp=0
+ for i in data:
+     str_list=i.split('=')
+     no=str_list[1].strip().strip('\n')
+     #print no
+     temp = temp+int(no)
+ print temp
+
+
+
