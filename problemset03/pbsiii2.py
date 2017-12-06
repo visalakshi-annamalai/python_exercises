@@ -1,3 +1,8 @@
+'''
+Name: visalakshi.annamalai
+question no:2
+Description:rotating words
+'''
 def rotate_word(str,a):
     a="cheer"
     for i in a:

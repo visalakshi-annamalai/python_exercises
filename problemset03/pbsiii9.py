@@ -1,3 +1,8 @@
+'''
+Name: visalakshi.annamalai
+question no:9
+Description:check whether the input is sorted or not
+''' 
 def is_sorted(list1):
 
     for i in list1:

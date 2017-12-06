@@ -1,3 +1,8 @@
+'''
+Name: visalakshi.annamalai
+question no:3
+Description:check whether the string has e
+'''
 def has_no_e(str):
     for i in str:
         if 'e' in str:

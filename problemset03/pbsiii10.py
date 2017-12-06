@@ -1,3 +1,8 @@
+'''
+Name: visalakshi.annamalai
+question no:10
+Description:a program to check anagram
+''' 
 def is_anagram(lsit,listt):
     lis1=[]
     list2=[]

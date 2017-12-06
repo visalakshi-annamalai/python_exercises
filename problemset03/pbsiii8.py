@@ -1,3 +1,8 @@
+'''
+Name: visalakshi.annamalai
+question no:8
+Description:check whether the string is in alphabetical order
+''' 
 def is_abcderaian(strlist,d):
 
     lis1=[]

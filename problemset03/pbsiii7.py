@@ -1,3 +1,9 @@
+
+'''
+Name: visalakshi.annamalai
+question no:7
+Description:check whether the word uses only the specified letters
+''' 
 def using_only(str1,str2):
 
     i=0

@@ -1,4 +1,4 @@
-'''import math
+import math
 def newtonSqrt(a,x):
    
     y = (x + a/x) / 2

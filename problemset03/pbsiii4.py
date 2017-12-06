@@ -1,3 +1,8 @@
+'''
+Name: visalakshi.annamalai
+question no:4
+Description:check whether the word has e and print the percentage of non 'e' words
+''' 
 def has_no_e(strlist):
     with_e=[]
     without_e=[]
