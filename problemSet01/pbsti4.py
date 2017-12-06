@@ -17,4 +17,4 @@ tempo (7:12 per mile) and 1 mile at easy pace again, what time do I get home for
 
 a)523.3333333333334
 b)945.45
-c)
+c)7.30
