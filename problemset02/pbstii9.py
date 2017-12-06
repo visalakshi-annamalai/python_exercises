@@ -1,3 +1,8 @@
+'''
+Name: visalakshi.annamalai
+question no:9
+Description:newton square root and square root and their difference
+'''
 import math
 def newtonSqrt(a,x):
    

@@ -3,7 +3,7 @@ Name: visalakshi.annamalai
 question no:10
 
 '''
-
+z=raw_input("enter the number")
 x =abs(z) 
 epsilon = 0.01 
 numGuesses = 0 
