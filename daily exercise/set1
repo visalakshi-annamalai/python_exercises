@@ -1,0 +1,110 @@
+'''1.get the first name and last name from the user and print the full name'''
+
+firstname=raw_input('enter the first name')
+
+lastname=raw_input('enter the last name')
+
+print (‘name is '+firstname+' '+lastname)
+
+
+
+'''2.declare integer variable and try all the integer functions'''
+
+a=5
+
+
+print(dir(a))
+
+print a.bit_length()
+
+
+
+'''3.declare string variable and try all the string functions'''
+
+Str1='visalakshI'
+
+print str1.capitalize()
+
+str1='apple'
+
+print str1.upper()
+
+str1='APPLE'
+
+print str1.lower()
+
+str1='appLLE'
+print str1.swapcase()
+
+str1='APPLE'
+print str1.index('E')
+
+str1='apple'
+
+print str1.count('e')
+
+str1='visalakshi annamalai'
+
+print str1.title()
+
+str1='shiva   '
+
+print str1.rstrip()
+
+str1='  apple   '
+
+print str1.lstrip()
+
+str1=' dhivya/kavidasan'
+
+print str1.split('/')
+
+str1='visa' 
+
+print str1.startswith('v')
+
+str1='APPLE'
+
+print str1.isupper()
+
+str1='apple'
+
+print str1.islower()
+
+str1='4'
+
+print str1.isdigit()
+
+str1='visalakshi'
+
+print len(str1)
+
+'''4.get your full name,age from the user and print the firstname,lastname using sclicing
+i.2 raw_input name and age
+ii.print first name last name and age
+iii.when age>=18 ,eligible to vote
+iv.when age<18 not eligible to vote.'''
+
+fullname=raw_input('enter your full name name')
+
+age=raw_input('enter age')
+
+i=int(age)
+
+name=fullname.split()
+
+print ('first name is '+name[0])
+
+print ('last name is '+name[1])
+
+if i>=18:
+  print 'eligible to vote'
+
+else:
+  print 'not eligible to vote'
+
+
+
+
+
+
